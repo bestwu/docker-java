@@ -1,5 +1,6 @@
 FROM alpine:latest
 MAINTAINER Peter Wu <piterwu@outlook.com>
+ENV LANG C.UTF-8
 WORKDIR /tmp
 RUN JAVA_PACKAGE=server-jre && \
   JAVA_VERSION_MAJOR=8 && \
