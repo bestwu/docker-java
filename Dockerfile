@@ -7,7 +7,7 @@ RUN JAVA_PACKAGE=server-jre && \
   JAVA_VERSION_MINOR=80 && \
   JAVA_VERSION_BUILD=15 && \
   GLIBC_PKG_VERSION=2.23-r3 && \
-  apk add --no-cache --update-cache curl ca-certificates bash && \
+  apk add --no-cache --update-cache curl ca-certificates && \
   curl -Lo /etc/apk/keys/sgerrand.rsa.pub "https://github.com/sgerrand/alpine-pkg-glibc/releases/download/${GLIBC_PKG_VERSION}/sgerrand.rsa.pub" && \
   curl -Lo glibc-${GLIBC_PKG_VERSION}.apk "https://github.com/sgerrand/alpine-pkg-glibc/releases/download/${GLIBC_PKG_VERSION}/glibc-${GLIBC_PKG_VERSION}.apk" && \
   apk add glibc-${GLIBC_PKG_VERSION}.apk&& \
