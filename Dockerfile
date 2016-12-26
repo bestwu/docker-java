@@ -3,8 +3,8 @@ MAINTAINER Peter Wu <piterwu@outlook.com>
 ENV LANG C.UTF-8
 WORKDIR /tmp
 RUN JAVA_PACKAGE=server-jre && \
-  JAVA_VERSION_MAJOR=7 && \
-  JAVA_VERSION_MINOR=80 && \
+  JAVA_VERSION_MAJOR=8 && \
+  JAVA_VERSION_MINOR=112 && \
   JAVA_VERSION_BUILD=15 && \
   GLIBC_PKG_VERSION=2.23-r3 && \
   apk add --no-cache --update-cache curl ca-certificates && \
