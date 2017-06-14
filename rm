@@ -1,0 +1,34 @@
+rm jre/bin/keytool \
+   jre/bin/orbd \
+   jre/bin/pack200 \
+   jre/bin/policytool \
+   jre/bin/rmid  \
+   jre/bin/rmiregistry   \
+   jre/bin/servertool   \
+   jre/bin/tnameserv   \
+   jre/bin/unpack200   \
+   jre/lib/applet   \
+   jre/lib/jfxrt.jar   \
+   jre/lib/amd64/libprism_*.so   \
+   jre/lib/amd64/libfxplugins.so   \
+   jre/lib/amd64/libglass.so   \
+   jre/lib/amd64/libgstreamer-lite.so   \
+   jre/lib/amd64/libjavafx*.so   \
+   jre/lib/amd64/libjfx*.so   \
+   jre/lib/ext/jfxrt.jar   \
+   jre/lib/ext/nashorn.jar   \
+   jre/lib/oblique-fonts   \
+   jre/lib/plugin.jar   \
+   jre/lib/jfr   \
+   jre/lib/jfr.jar   \
+   jre/Welcome.html
+
+rm  jre/plugin   \
+    jre/bin/javaws   \
+    jre/bin/jjs   \
+    jre/lib/javaws.jar   \
+    jre/lib/deploy*   \
+    jre/lib/desktop   \
+    jre/lib/*javafx*   \
+    jre/lib/*jfx*   \
+    jre/lib/amd64/libdecora_sse.so   \
