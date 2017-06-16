@@ -1,0 +1,9 @@
+cd 7/jre && sudo docker build . -t bestwu/java:7 -t bestwu/java:jre7 -t bestwu/java:server-jre7 && \
+cd ../jre-urandom && sudo docker build . -t bestwu/java:7-urandom -t bestwu/java:jre7-urandom -t bestwu/java:server-jre7-urandom && \
+cd ../jdk && sudo docker build . -t bestwu/java:jdk7 && \
+cd ../jdk-urandom && sudo docker build . -t bestwu/java:jdk7-urandom && \
+cd ../../  && \
+cd 8/jre && sudo docker build . -t bestwu/java:8 -t bestwu/java:jre8 -t bestwu/java:server-jre8 && \
+cd ../jre-urandom && sudo docker build . -t bestwu/java:8-urandom -t bestwu/java:jre8-urandom -t bestwu/java:server-jre8-urandom && \
+cd ../jdk && sudo docker build . -t bestwu/java:jdk8 && \
+cd ../jdk-urandom && sudo docker build . -t bestwu/java:jdk8-urandom && \

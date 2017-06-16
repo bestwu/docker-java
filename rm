@@ -1,3 +1,7 @@
+*src.zip    \
+lib/missioncontrol    \
+lib/visualvm    \
+lib/*javafx*    \
 jre/bin/keytool    \
 jre/bin/orbd    \
 jre/bin/pack200    \
@@ -30,44 +34,4 @@ jre/lib/deploy*    \
 jre/lib/desktop    \
 jre/lib/*javafx*    \
 jre/lib/*jfx*    \
-jre/lib/amd64/libdecora_sse.so    \
-
-
-
-jdk/*src.zip    \
-jdk/lib/missioncontrol    \
-jdk/lib/visualvm    \
-jdk/lib/*javafx*    \
-jdk/jre/bin/keytool    \
-jdk/jre/bin/orbd    \
-jdk/jre/bin/pack200    \
-jdk/jre/bin/policytool    \
-jdk/jre/bin/rmid    \
-jdk/jre/bin/rmiregistry    \
-jdk/jre/bin/servertool    \
-jdk/jre/bin/tnameserv    \
-jdk/jre/bin/unpack200    \
-jdk/jre/lib/applet    \
-jdk/jre/lib/jfxrt.jar    \
-jdk/jre/lib/amd64/libprism_*.so    \
-jdk/jre/lib/amd64/libfxplugins.so    \
-jdk/jre/lib/amd64/libglass.so    \
-jdk/jre/lib/amd64/libgstreamer-lite.so    \
-jdk/jre/lib/amd64/libjavafx*.so    \
-jdk/jre/lib/amd64/libjfx*.so    \
-jdk/jre/lib/ext/jfxrt.jar    \
-jdk/jre/lib/ext/nashorn.jar    \
-jdk/jre/lib/oblique-fonts    \
-jdk/jre/lib/plugin.jar    \
-jdk/jre/lib/jfr    \
-jdk/jre/lib/jfr.jar    \
-jdk/jre/Welcome.html    \
-jdk/jre/plugin    \
-jdk/jre/bin/javaws    \
-jdk/jre/bin/jjs    \
-jdk/jre/lib/javaws.jar    \
-jdk/jre/lib/deploy*    \
-jdk/jre/lib/desktop    \
-jdk/jre/lib/*javafx*    \
-jdk/jre/lib/*jfx*    \
-jdk/jre/lib/amd64/libdecora_sse.so 
+jre/lib/amd64/libdecora_sse.so
