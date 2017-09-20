@@ -3,5 +3,4 @@ cd ../jdk && sudo docker build . -t bestwu/java:jdk7 && \
 cd ../../  && \
 cd 8/jre && sudo docker build . -t bestwu/java:8 -t bestwu/java:jre8 -t bestwu/java:server-jre8 && \
 cd ../jdk && sudo docker build . -t bestwu/java:jdk8 && \
-cd ../git && sudo docker build . -t bestwu/java:8-git
 
