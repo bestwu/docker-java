@@ -9,7 +9,7 @@ ENV LANG=C.UTF-8 \
     DOWNLOAD_URL=http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/server-jre-8u144-linux-x64.tar.gz
     
 ENV JAVA_HOME=/usr/lib/jvm/jdk1.${JAVA_VERSION_MAJOR}.0_${JAVA_VERSION_MINOR}
-ENV PATH=$PATH:${JAVA_HOME}/bin 
+ENV PATH=$PATH:${JAVA_HOME}/bin
 
 WORKDIR /tmp
 RUN apk add --no-cache --update-cache curl ca-certificates && \
