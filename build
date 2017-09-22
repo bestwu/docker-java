@@ -1,6 +1,0 @@
-cd 7/jre && sudo docker build . -t bestwu/java:7 -t bestwu/java:jre7 -t bestwu/java:server-jre7 && \
-cd ../jdk && sudo docker build . -t bestwu/java:jdk7 && \
-cd ../../  && \
-cd 8/jre && sudo docker build . -t bestwu/java:8 -t bestwu/java:jre8 -t bestwu/java:server-jre8 && \
-cd ../jdk && sudo docker build . -t bestwu/java:jdk8 && \
-

@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build ./7/jre -t bestwu/java:7 -t bestwu/java:jre7 -t bestwu/java:server-jre7
+  - docker run --rm bestwu/java:7 java -version
+  - docker build ./7/jdk -t bestwu/java:jdk7
+  - docker run --rm bestwu/java:jdk7 java -version
+  - docker build ./8/jre -t bestwu/java:8 -t bestwu/java:jre8 -t bestwu/java:server-jre8
+  - docker run --rm bestwu/java:8 java -version
+  - docker build ./8/jdk -t bestwu/java:jdk8
+  - docker run --rm bestwu/java:jdk8 java -version
