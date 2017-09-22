@@ -3,12 +3,13 @@ sudo: required
 services:
   - docker
 
+matrix:
+  include:
+    - env: BUILD_PATH="./7/jre" IMAGE_TAG="bestwu/java:7"
+    - env: BUILD_PATH="./7/jdk" IMAGE_TAG="bestwu/java:jdk7"
+    - env: BUILD_PATH="./8/jre" IMAGE_TAG="bestwu/java:8"
+    - env: BUILD_PATH="./8/jdk" IMAGE_TAG="bestwu/java:jdk8"
+
 script:
-  - docker build ./7/jre -t bestwu/java:7
-  - docker run --rm bestwu/java:7 java -version
-  - docker build ./7/jdk -t bestwu/java:jdk7
-  - docker run --rm bestwu/java:jdk7 java -version
-  - docker build ./8/jre -t bestwu/java:8
-  - docker run --rm bestwu/java:8 java -version
-  - docker build ./8/jdk -t bestwu/java:jdk8
-  - docker run --rm bestwu/java:jdk8 java -version
+  - docker build $BUILD_PATH -t $IMAGE_TAG
+  - docker run --rm $IMAGE_TAG java -version
