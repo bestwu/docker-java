@@ -4,9 +4,9 @@ LABEL maintainer='Peter Wu <piterwu@outlook.com>'
 ENV LANG=C.UTF-8 \
     JAVA_PACKAGE=jdk \
     JAVA_VERSION_MAJOR=8 \
-    JAVA_VERSION_MINOR=144 \
+    JAVA_VERSION_MINOR=151 \
     JAVA_VERSION_BUILD=01 \
-    DOWNLOAD_URL=http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
+    DOWNLOAD_URL=http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz
     
 ENV JAVA_HOME=/usr/lib/jvm/jdk1.${JAVA_VERSION_MAJOR}.0_${JAVA_VERSION_MINOR}
 ENV PATH=$PATH:${JAVA_HOME}/bin
