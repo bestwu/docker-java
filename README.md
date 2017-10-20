@@ -7,5 +7,4 @@
 * 8u144
 * 8,jre8,server-jre8,latest,8u151
 * jdk7,jdk7u80
-* jdk8u144
 * jdk8,jdk8u151
