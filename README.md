@@ -1,5 +1,4 @@
-# java
-
+[![Docker Image](https://img.shields.io/badge/docker%20image-available-green.svg)](https://hub.docker.com/r/bestwu/java/)
 [![Build Status](https://travis-ci.org/bestwu/docker-java.svg?branch=master)](https://travis-ci.org/bestwu/docker-java)
 
 ## Supported tags
